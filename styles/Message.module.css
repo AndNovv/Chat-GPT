@@ -1,0 +1,41 @@
+.aicontainer {
+    background-color: rgb(68,70,84);
+    margin: 0;
+    padding: 0 4rem;
+    display: flex;
+}
+
+.usercontainer {
+    margin: 0;
+    padding: 0 4rem;
+    display: flex;
+}
+
+.author {
+    padding: 0;
+    margin: 0;
+}
+
+.message {
+    padding: 1rem 0;
+    margin: 0;
+}
+
+.icon {
+    width: 30px;
+    padding-top: .75rem;
+    margin-right: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  .aicontainer {
+    padding: 0 1rem;
+  }
+  .usercontainer {
+    padding: 0 1rem ;
+  }
+
+  .message {
+    padding: 1rem 2rem 1rem 0;
+  }
+}
