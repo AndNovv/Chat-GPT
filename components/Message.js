@@ -10,9 +10,7 @@ const Message = (props) => {
         <div className={styles.icon}>
             {props.author === 'user' ? <FaRegUser size={30}/> : <GiBrain size={32}/>}
         </div>
-        <p className={styles.message}>
-            {props.message}
-        </p>
+        <pre className={styles.message}>{props.message}</pre>
     </div>
   )
 }
